@@ -36,7 +36,6 @@ public class NaukriAutoUpdate {
 		String loginResponse = given().log().all()
 		.header("accept", "application/json")
 		.header("appid", "103")
-		.header("clientid", "d3skt0p")
 		.header("content-type", "application/json")
 		.header("systemid", "jobseeker")
 		.body(reqbody)
