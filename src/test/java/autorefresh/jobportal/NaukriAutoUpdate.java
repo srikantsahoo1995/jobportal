@@ -35,9 +35,10 @@ public class NaukriAutoUpdate {
 		
 		String loginResponse = given().log().all()
 		.header("accept", "application/json")
-		.header("appid", "103")
+		.header("appid", "105")
 		.header("content-type", "application/json")
 		.header("systemid", "jobseeker")
+		.header("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
 		.body(reqbody)
 		.when()
 		.post("central-login-services/v1/login")
