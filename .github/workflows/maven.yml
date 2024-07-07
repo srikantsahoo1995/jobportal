@@ -27,7 +27,7 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
-    - name: Test execution with Maven
+    - name: Naukri execution with Maven
       run: mvn test -Dsurefire.suiteXmlFiles=testng.xml
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
