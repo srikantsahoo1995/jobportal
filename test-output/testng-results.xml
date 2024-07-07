@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-07T15:45:59 IST" name="TestNG Session Test Automation Suite" finished-at="2024-07-07T15:46:10 IST" duration-ms="10742">
+    <groups>
+    </groups>
+    <test started-at="2024-07-07T15:45:59 IST" name="Naukri profile update" finished-at="2024-07-07T15:46:10 IST" duration-ms="10742">
+      <class name="autorefresh.jobportal.NaukriAutoUpdate">
+        <test-method signature="testbody()[pri:0, instance:autorefresh.jobportal.NaukriAutoUpdate@5a56cdac]" started-at="2024-07-07T15:45:59 IST" name="testbody" finished-at="2024-07-07T15:46:10 IST" duration-ms="10666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testbody -->
+      </class> <!-- autorefresh.jobportal.NaukriAutoUpdate -->
+    </test> <!-- Naukri profile update -->
+  </suite> <!-- TestNG Session Test Automation Suite -->
+</testng-results>

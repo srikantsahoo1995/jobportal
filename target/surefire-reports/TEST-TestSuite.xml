@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="12.531" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="surefire.suiteXmlFiles" value="testng.xml"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\SRIKANT KUMAR SAHOO\eclipse-workspace-selenium\jobportal\target\test-classes;C:\Users\SRIKANT KUMAR SAHOO\eclipse-workspace-selenium\jobportal\target\classes;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\io\rest-assured\json-path\5.3.2\json-path-5.3.2.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\io\rest-assured\rest-assured-common\5.3.2\rest-assured-common-5.3.2.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk-11.0.18_windows-x64_bin\jdk-11.0.18\bin"/>
+    <property name="sun.java.command" value="C:\Users\SRIKANT KUMAR SAHOO\AppData\Local\Temp\surefire6699394279755172623\surefirebooter12862330269939134615.jar C:\Users\SRIKANT KUMAR SAHOO\AppData\Local\Temp\surefire6699394279755172623 2024-07-07T16-10-15_891-jvmRun1 surefire6196056340068107110tmp surefire_02168547174189605837tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\SRIKANT KUMAR SAHOO\eclipse-workspace-selenium\jobportal\target\test-classes;C:\Users\SRIKANT KUMAR SAHOO\eclipse-workspace-selenium\jobportal\target\classes;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\io\rest-assured\json-path\5.3.2\json-path-5.3.2.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\io\rest-assured\rest-assured-common\5.3.2\rest-assured-common-5.3.2.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\SRIKANT KUMAR SAHOO\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\SRIKANT KUMAR SAHOO"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk-11.0.18_windows-x64_bin\jdk-11.0.18"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\SRIKANT KUMAR SAHOO\eclipse-workspace-selenium\jobportal"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\SRIKANT KUMAR SAHOO\AppData\Local\Temp\surefire6699394279755172623\surefirebooter12862330269939134615.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.18+9-LTS-195"/>
+    <property name="user.name" value="SRIKANT KUMAR SAHOO"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\SRIKANT KUMAR SAHOO\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SRIKAN~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.18"/>
+    <property name="user.dir" value="C:\Users\SRIKANT KUMAR SAHOO\eclipse-workspace-selenium\jobportal"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk-11.0.18_windows-x64_bin\jdk-11.0.18\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Java\jdk-11.0.18_windows-x64_bin\jdk-11.0.18\bin;C:\TDM-GCC-64\bin;F:\Selenium\apache-maven-3.9.8-bin\apache-maven-3.9.8\bin;C:\Users\SRIKANT KUMAR SAHOO\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Users\SRIKANT KUMAR SAHOO\AppData\Roaming\npm;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.18+9-LTS-195"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testbody" classname="autorefresh.jobportal.NaukriAutoUpdate" time="10.848">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://www.naukri.com/central-login-services/v1/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		accept=application/json
+				appid=103
+				clientid=d3skt0p
+				systemid=jobseeker
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "srikantsahoo1995@gmail.com",
+    "password": "8338886625"
+}
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Set-Login: logged-in
+Content-Encoding: gzip
+X-Frame-Options: SAMEORIGIN
+Content-Length: 1420
+X-EdgeConnect-MidMile-RTT: 24
+X-EdgeConnect-Origin-MEX-Latency: 42
+Date: Sun, 07 Jul 2024 10:40:24 GMT
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: nauk_at=eyJraWQiOiIxIiwidHlwIjoiSldUIiwiYWxnIjoiUlM1MTIifQ.eyJkZXZpY2VUeXBlIjoiZDNza3QwcCIsInVkX3Jlc0lkIjoxMzg3ODQzNDEsInN1YiI6IjE0Nzc0MjcwNSIsInVkX3VzZXJuYW1lIjoic3Jpa2FudHNhaG9vMTk5NUBnbWFpbC5jb20iLCJ1ZF9pc0VtYWlsIjp0cnVlLCJpc3MiOiJJbmZvRWRnZSBJbmRpYSBQdnQuIEx0ZC4iLCJ1c2VyQWdlbnQiOiJBcGFjaGUtSHR0cENsaWVudC80LjUuMTMgKEphdmEvMTEuMC4xOCkiLCJpcEFkcmVzcyI6IjQ5LjM3LjE3MS40OSIsInVkX2lzVGVjaE9wc0xvZ2luIjpmYWxzZSwidXNlcklkIjoxNDc3NDI3MDUsInN1YlVzZXJUeXBlIjoiam9ic2Vla2VyIiwidXNlclN0YXRlIjoiQVVUSEVOVElDQVRFRCIsInVkX2lzUGFpZENsaWVudCI6ZmFsc2UsInVkX2VtYWlsVmVyaWZpZWQiOnRydWUsInVzZXJUeXBlIjoiam9ic2Vla2VyIiwic2Vzc2lvblN0YXRUaW1lIjoiMjAyNC0wNy0wN1QxNjoxMDoyNCIsInVkX2VtYWlsIjoic3Jpa2FudHNhaG9vMTk5NUBnbWFpbC5jb20iLCJ1c2VyUm9sZSI6InVzZXIiLCJleHAiOjE3MjAzNTI0MjQsInRva2VuVHlwZSI6ImFjY2Vzc1Rva2VuIiwiaWF0IjoxNzIwMzQ4ODI0LCJqdGkiOiI1ZGZhZThhYWExOGI0OTZjYWFjMjM1ZTc5YTM0NzNmYiJ9.GEKQm4SY6eLwUiGQv1a7nMNvJuBqco4m14hy1HSZzw5Qw994Kmf5f-QItUAcnv2tQl9DWDba6Tmz6KMQTmp4_6lYQliX_QIMk8ohe7Ghocuu8sT3x0zElNb4RDtGmLeZAf6U9VRDPcdonzt_lqAOBrOzu0QMRZuS7D1BbIdmkUz6ETKZzooXid5TzdJpu9Jp63aXeQJ0cGt7aER2T1Osfw-Yy3aDkj-f3co8IA6w81rdAa10cSi-AFf7-mxmOgooCQw5rw7nD8uCxZL9tTjvEXXRGXzEAIXx4a_p1CQDKDh2xqDwQiVdImHQQfFiufdHwOVclf6gV4Ro-CsOYJVOng;Version=1;Domain=.naukri.com;Path=/;Max-Age=3600;Expires=Sun, 07 Jul 2024 11:40:24 GMT;SameSite=lax
+Set-Cookie: nauk_rt=5dfae8aaa18b496caac235e79a3473fb;Version=1;Domain=.naukri.com;Path=/;Max-Age=31536000;HttpOnly;Expires=Mon, 07 Jul 2025 10:40:24 GMT;SameSite=lax
+Set-Cookie: is_login=1;Version=1;Domain=.naukri.com;Path=/;Max-Age=3600;HttpOnly;Expires=Sun, 07 Jul 2024 11:40:24 GMT;SameSite=lax
+Set-Cookie: nauk_sid=5dfae8aaa18b496caac235e79a3473fb;Version=1;Domain=.naukri.com;Path=/;Max-Age=31536000;HttpOnly;Expires=Mon, 07 Jul 2025 10:40:24 GMT;SameSite=lax
+Set-Cookie: nauk_otl=5dfae8aaa18b496caac235e79a3473fb;Version=1;Domain=.naukri.com;Path=/;Max-Age=31536000;Expires=Mon, 07 Jul 2025 10:40:24 GMT;SameSite=none;Secure
+Set-Cookie: failLoginCount=0;Version=1;Domain=.naukri.com;Path=/;Max-Age=-1720348825;Secure;HttpOnly;Expires=Wed, 31 Dec 1969 23:59:59 GMT;SameSite=lax
+Set-Cookie: NKWAP=a0b01764bbfd8d3e2297950b9165d2935dfb56d2d4c826f16ccdbe6f099a9774ff003c62a2e1a36431b890266d0ecd01~a0b01764bbfd8d3e2297950b9165d2935dfb56d2d4c826f16ccdbe6f099a9774ff003c62a2e1a36431b890266d0ecd01~1~0;Version=1;Domain=.naukri.com;Path=/;Max-Age=31536000;Secure;Expires=Mon, 07 Jul 2025 10:40:24 GMT;SameSite=lax
+Set-Cookie: MYNAUKRI[UNID]=c411e35b82a7402aae8befc9506dad82;Version=1;Domain=.naukri.com;Path=/;Max-Age=31536000;Secure;Expires=Mon, 07 Jul 2025 10:40:24 GMT;SameSite=lax
+Set-Cookie: _t_ds=f56975d1720348824-94f56975d-0f56975d; expires=Mon, 07-Jul-2025 10:40:24 GMT; path=/; domain=.naukri.com; secure; HttpOnly; SameSite=Lax
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
+
+{
+    "cookies": [
+        {
+            "name": "nauk_at",
+            "value": "eyJraWQiOiIxIiwidHlwIjoiSldUIiwiYWxnIjoiUlM1MTIifQ.eyJkZXZpY2VUeXBlIjoiZDNza3QwcCIsInVkX3Jlc0lkIjoxMzg3ODQzNDEsInN1YiI6IjE0Nzc0MjcwNSIsInVkX3VzZXJuYW1lIjoic3Jpa2FudHNhaG9vMTk5NUBnbWFpbC5jb20iLCJ1ZF9pc0VtYWlsIjp0cnVlLCJpc3MiOiJJbmZvRWRnZSBJbmRpYSBQdnQuIEx0ZC4iLCJ1c2VyQWdlbnQiOiJBcGFjaGUtSHR0cENsaWVudC80LjUuMTMgKEphdmEvMTEuMC4xOCkiLCJpcEFkcmVzcyI6IjQ5LjM3LjE3MS40OSIsInVkX2lzVGVjaE9wc0xvZ2luIjpmYWxzZSwidXNlcklkIjoxNDc3NDI3MDUsInN1YlVzZXJUeXBlIjoiam9ic2Vla2VyIiwidXNlclN0YXRlIjoiQVVUSEVOVElDQVRFRCIsInVkX2lzUGFpZENsaWVudCI6ZmFsc2UsInVkX2VtYWlsVmVyaWZpZWQiOnRydWUsInVzZXJUeXBlIjoiam9ic2Vla2VyIiwic2Vzc2lvblN0YXRUaW1lIjoiMjAyNC0wNy0wN1QxNjoxMDoyNCIsInVkX2VtYWlsIjoic3Jpa2FudHNhaG9vMTk5NUBnbWFpbC5jb20iLCJ1c2VyUm9sZSI6InVzZXIiLCJleHAiOjE3MjAzNTI0MjQsInRva2VuVHlwZSI6ImFjY2Vzc1Rva2VuIiwiaWF0IjoxNzIwMzQ4ODI0LCJqdGkiOiI1ZGZhZThhYWExOGI0OTZjYWFjMjM1ZTc5YTM0NzNmYiJ9.GEKQm4SY6eLwUiGQv1a7nMNvJuBqco4m14hy1HSZzw5Qw994Kmf5f-QItUAcnv2tQl9DWDba6Tmz6KMQTmp4_6lYQliX_QIMk8ohe7Ghocuu8sT3x0zElNb4RDtGmLeZAf6U9VRDPcdonzt_lqAOBrOzu0QMRZuS7D1BbIdmkUz6ETKZzooXid5TzdJpu9Jp63aXeQJ0cGt7aER2T1Osfw-Yy3aDkj-f3co8IA6w81rdAa10cSi-AFf7-mxmOgooCQw5rw7nD8uCxZL9tTjvEXXRGXzEAIXx4a_p1CQDKDh2xqDwQiVdImHQQfFiufdHwOVclf6gV4Ro-CsOYJVOng",
+            "expiry": 1720352424,
+            "httpOnly": false,
+            "secure": false,
+            "sameSite": "lax",
+            "domain": ".naukri.com"
+        },
+        {
+            "name": "nauk_rt",
+            "value": "5dfae8aaa18b496caac235e79a3473fb",
+            "expiry": 1751884824,
+            "httpOnly": true,
+            "secure": false,
+            "sameSite": "lax",
+            "domain": ".naukri.com"
+        },
+        {
+            "name": "is_login",
+            "value": "1",
+            "expiry": 1720352424,
+            "httpOnly": true,
+            "secure": false,
+            "sameSite": "lax",
+            "domain": ".naukri.com"
+        },
+        {
+            "name": "nauk_sid",
+            "value": "5dfae8aaa18b496caac235e79a3473fb",
+            "expiry": 1751884824,
+            "httpOnly": true,
+            "secure": false,
+            "sameSite": "lax",
+            "domain": ".naukri.com"
+        },
+        {
+            "name": "nauk_otl",
+            "value": "5dfae8aaa18b496caac235e79a3473fb",
+            "expiry": 1751884824,
+            "httpOnly": false,
+            "secure": false,
+            "sameSite": "lax",
+            "domain": ".naukri.com"
+        },
+        {
+            "name": "failLoginCount",
+            "value": "0",
+            "expiry": 0,
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".naukri.com"
+        },
+        {
+            "name": "NKWAP",
+            "value": "a0b01764bbfd8d3e2297950b9165d2935dfb56d2d4c826f16ccdbe6f099a9774ff003c62a2e1a36431b890266d0ecd01~a0b01764bbfd8d3e2297950b9165d2935dfb56d2d4c826f16ccdbe6f099a9774ff003c62a2e1a36431b890266d0ecd01~1~0",
+            "expiry": 1751884824,
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".naukri.com"
+        },
+        {
+            "name": "MYNAUKRI[UNID]",
+            "value": "c411e35b82a7402aae8befc9506dad82",
+            "expiry": 1751884824,
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "lax",
+            "domain": ".naukri.com"
+        }
+    ],
+    "userInfo": {
+        "userId": 147742705,
+        "userType": "jobseeker",
+        "userRole": "user",
+        "deviceType": "d3skt0p",
+        "ipAddress": "49.37.171.49",
+        "userAgent": "Apache-HttpClient/4.5.13 (Java/11.0.18)",
+        "subUserType": "jobseeker",
+        "userData": {
+            "username": "srikantsahoo1995@gmail.com",
+            "email": "srikantsahoo1995@gmail.com",
+            "serviceType": "",
+            "resId": 138784341,
+            "isTechOpsLogin": false,
+            "isEmail": true,
+            "isPaidClient": false,
+            "emailVerified": true
+        }
+    },
+    "userStateInfo": {
+        "userState": "AUTHENTICATED",
+        "validState": true
+    }
+}
+The token is :eyJraWQiOiIxIiwidHlwIjoiSldUIiwiYWxnIjoiUlM1MTIifQ.eyJkZXZpY2VUeXBlIjoiZDNza3QwcCIsInVkX3Jlc0lkIjoxMzg3ODQzNDEsInN1YiI6IjE0Nzc0MjcwNSIsInVkX3VzZXJuYW1lIjoic3Jpa2FudHNhaG9vMTk5NUBnbWFpbC5jb20iLCJ1ZF9pc0VtYWlsIjp0cnVlLCJpc3MiOiJJbmZvRWRnZSBJbmRpYSBQdnQuIEx0ZC4iLCJ1c2VyQWdlbnQiOiJBcGFjaGUtSHR0cENsaWVudC80LjUuMTMgKEphdmEvMTEuMC4xOCkiLCJpcEFkcmVzcyI6IjQ5LjM3LjE3MS40OSIsInVkX2lzVGVjaE9wc0xvZ2luIjpmYWxzZSwidXNlcklkIjoxNDc3NDI3MDUsInN1YlVzZXJUeXBlIjoiam9ic2Vla2VyIiwidXNlclN0YXRlIjoiQVVUSEVOVElDQVRFRCIsInVkX2lzUGFpZENsaWVudCI6ZmFsc2UsInVkX2VtYWlsVmVyaWZpZWQiOnRydWUsInVzZXJUeXBlIjoiam9ic2Vla2VyIiwic2Vzc2lvblN0YXRUaW1lIjoiMjAyNC0wNy0wN1QxNjoxMDoyNCIsInVkX2VtYWlsIjoic3Jpa2FudHNhaG9vMTk5NUBnbWFpbC5jb20iLCJ1c2VyUm9sZSI6InVzZXIiLCJleHAiOjE3MjAzNTI0MjQsInRva2VuVHlwZSI6ImFjY2Vzc1Rva2VuIiwiaWF0IjoxNzIwMzQ4ODI0LCJqdGkiOiI1ZGZhZThhYWExOGI0OTZjYWFjMjM1ZTc5YTM0NzNmYiJ9.GEKQm4SY6eLwUiGQv1a7nMNvJuBqco4m14hy1HSZzw5Qw994Kmf5f-QItUAcnv2tQl9DWDba6Tmz6KMQTmp4_6lYQliX_QIMk8ohe7Ghocuu8sT3x0zElNb4RDtGmLeZAf6U9VRDPcdonzt_lqAOBrOzu0QMRZuS7D1BbIdmkUz6ETKZzooXid5TzdJpu9Jp63aXeQJ0cGt7aER2T1Osfw-Yy3aDkj-f3co8IA6w81rdAa10cSi-AFf7-mxmOgooCQw5rw7nD8uCxZL9tTjvEXXRGXzEAIXx4a_p1CQDKDh2xqDwQiVdImHQQfFiufdHwOVclf6gV4Ro-CsOYJVOng
+Request method:	POST
+Request URI:	https://www.naukri.com/cloudgateway-mynaukri/resman-aggregator-services/v1/users/self/fullprofiles
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		accept=application/json
+				appid=105
+				clientid=d3skt0p
+				systemid=Naukri
+				x-http-method-override=PUT
+				authorization=Bearer eyJraWQiOiIxIiwidHlwIjoiSldUIiwiYWxnIjoiUlM1MTIifQ.eyJkZXZpY2VUeXBlIjoiZDNza3QwcCIsInVkX3Jlc0lkIjoxMzg3ODQzNDEsInN1YiI6IjE0Nzc0MjcwNSIsInVkX3VzZXJuYW1lIjoic3Jpa2FudHNhaG9vMTk5NUBnbWFpbC5jb20iLCJ1ZF9pc0VtYWlsIjp0cnVlLCJpc3MiOiJJbmZvRWRnZSBJbmRpYSBQdnQuIEx0ZC4iLCJ1c2VyQWdlbnQiOiJBcGFjaGUtSHR0cENsaWVudC80LjUuMTMgKEphdmEvMTEuMC4xOCkiLCJpcEFkcmVzcyI6IjQ5LjM3LjE3MS40OSIsInVkX2lzVGVjaE9wc0xvZ2luIjpmYWxzZSwidXNlcklkIjoxNDc3NDI3MDUsInN1YlVzZXJUeXBlIjoiam9ic2Vla2VyIiwidXNlclN0YXRlIjoiQVVUSEVOVElDQVRFRCIsInVkX2lzUGFpZENsaWVudCI6ZmFsc2UsInVkX2VtYWlsVmVyaWZpZWQiOnRydWUsInVzZXJUeXBlIjoiam9ic2Vla2VyIiwic2Vzc2lvblN0YXRUaW1lIjoiMjAyNC0wNy0wN1QxNjoxMDoyNCIsInVkX2VtYWlsIjoic3Jpa2FudHNhaG9vMTk5NUBnbWFpbC5jb20iLCJ1c2VyUm9sZSI6InVzZXIiLCJleHAiOjE3MjAzNTI0MjQsInRva2VuVHlwZSI6ImFjY2Vzc1Rva2VuIiwiaWF0IjoxNzIwMzQ4ODI0LCJqdGkiOiI1ZGZhZThhYWExOGI0OTZjYWFjMjM1ZTc5YTM0NzNmYiJ9.GEKQm4SY6eLwUiGQv1a7nMNvJuBqco4m14hy1HSZzw5Qw994Kmf5f-QItUAcnv2tQl9DWDba6Tmz6KMQTmp4_6lYQliX_QIMk8ohe7Ghocuu8sT3x0zElNb4RDtGmLeZAf6U9VRDPcdonzt_lqAOBrOzu0QMRZuS7D1BbIdmkUz6ETKZzooXid5TzdJpu9Jp63aXeQJ0cGt7aER2T1Osfw-Yy3aDkj-f3co8IA6w81rdAa10cSi-AFf7-mxmOgooCQw5rw7nD8uCxZL9tTjvEXXRGXzEAIXx4a_p1CQDKDh2xqDwQiVdImHQQfFiufdHwOVclf6gV4Ro-CsOYJVOng
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "profile": {
+        "resumeHeadline": "Experienced SDET with nearly 5 years in designing, developing, and implementing automated test frameworks. Proficient in various automation tools, passionate about innovation, and skilled in AppSec, SaaS, and enterprise apps.."
+    },
+    "profileId": "5c89cb746dad01d57d4bbfc541bdc7fda0a3f19e780c1603cdf3e35370f49177"
+}
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 87
+X-EdgeConnect-MidMile-RTT: 23
+X-EdgeConnect-Origin-MEX-Latency: 86
+Date: Sun, 07 Jul 2024 10:40:26 GMT
+Connection: keep-alive
+Set-Cookie: _t_ds=f5698ed1720348826-17f5698ed-0f5698ed; expires=Mon, 07-Jul-2025 10:40:26 GMT; path=/; domain=.naukri.com; secure; HttpOnly; SameSite=Lax
+Set-Cookie: J=0; expires=Mon, 07-Jul-2025 10:40:26 GMT; path=/; domain=.naukri.com; secure; HttpOnly; SameSite=Lax
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
+
+{
+    "profile": [
+        {
+            "id": "5c89cb746dad01d57d4bbfc541bdc7fda0a3f19e780c1603cdf3e35370f49177"
+        }
+    ]
+}
+Request method:	POST
+Request URI:	https://www.naukri.com/cloudgateway-mynaukri/resman-aggregator-services/v1/users/self/fullprofiles
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		accept=application/json
+				appid=105
+				clientid=d3skt0p
+				systemid=Naukri
+				x-http-method-override=PUT
+				authorization=Bearer eyJraWQiOiIxIiwidHlwIjoiSldUIiwiYWxnIjoiUlM1MTIifQ.eyJkZXZpY2VUeXBlIjoiZDNza3QwcCIsInVkX3Jlc0lkIjoxMzg3ODQzNDEsInN1YiI6IjE0Nzc0MjcwNSIsInVkX3VzZXJuYW1lIjoic3Jpa2FudHNhaG9vMTk5NUBnbWFpbC5jb20iLCJ1ZF9pc0VtYWlsIjp0cnVlLCJpc3MiOiJJbmZvRWRnZSBJbmRpYSBQdnQuIEx0ZC4iLCJ1c2VyQWdlbnQiOiJBcGFjaGUtSHR0cENsaWVudC80LjUuMTMgKEphdmEvMTEuMC4xOCkiLCJpcEFkcmVzcyI6IjQ5LjM3LjE3MS40OSIsInVkX2lzVGVjaE9wc0xvZ2luIjpmYWxzZSwidXNlcklkIjoxNDc3NDI3MDUsInN1YlVzZXJUeXBlIjoiam9ic2Vla2VyIiwidXNlclN0YXRlIjoiQVVUSEVOVElDQVRFRCIsInVkX2lzUGFpZENsaWVudCI6ZmFsc2UsInVkX2VtYWlsVmVyaWZpZWQiOnRydWUsInVzZXJUeXBlIjoiam9ic2Vla2VyIiwic2Vzc2lvblN0YXRUaW1lIjoiMjAyNC0wNy0wN1QxNjoxMDoyNCIsInVkX2VtYWlsIjoic3Jpa2FudHNhaG9vMTk5NUBnbWFpbC5jb20iLCJ1c2VyUm9sZSI6InVzZXIiLCJleHAiOjE3MjAzNTI0MjQsInRva2VuVHlwZSI6ImFjY2Vzc1Rva2VuIiwiaWF0IjoxNzIwMzQ4ODI0LCJqdGkiOiI1ZGZhZThhYWExOGI0OTZjYWFjMjM1ZTc5YTM0NzNmYiJ9.GEKQm4SY6eLwUiGQv1a7nMNvJuBqco4m14hy1HSZzw5Qw994Kmf5f-QItUAcnv2tQl9DWDba6Tmz6KMQTmp4_6lYQliX_QIMk8ohe7Ghocuu8sT3x0zElNb4RDtGmLeZAf6U9VRDPcdonzt_lqAOBrOzu0QMRZuS7D1BbIdmkUz6ETKZzooXid5TzdJpu9Jp63aXeQJ0cGt7aER2T1Osfw-Yy3aDkj-f3co8IA6w81rdAa10cSi-AFf7-mxmOgooCQw5rw7nD8uCxZL9tTjvEXXRGXzEAIXx4a_p1CQDKDh2xqDwQiVdImHQQfFiufdHwOVclf6gV4Ro-CsOYJVOng
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "profile": {
+        "resumeHeadline": "Experienced SDET with nearly 5 years in designing, developing, and implementing automated test frameworks. Proficient in various automation tools, passionate about innovation, and skilled in AppSec, SaaS, and enterprise apps."
+    },
+    "profileId": "5c89cb746dad01d57d4bbfc541bdc7fda0a3f19e780c1603cdf3e35370f49177"
+}
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+Content-Length: 87
+X-EdgeConnect-MidMile-RTT: 20
+X-EdgeConnect-Origin-MEX-Latency: 67
+Date: Sun, 07 Jul 2024 10:40:31 GMT
+Connection: keep-alive
+Set-Cookie: _t_ds=f569d731720348831-19f569d73-0f569d73; expires=Mon, 07-Jul-2025 10:40:31 GMT; path=/; domain=.naukri.com; secure; HttpOnly; SameSite=Lax
+Set-Cookie: J=0; expires=Mon, 07-Jul-2025 10:40:31 GMT; path=/; domain=.naukri.com; secure; HttpOnly; SameSite=Lax
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains ; preload
+
+{
+    "profile": [
+        {
+            "id": "5c89cb746dad01d57d4bbfc541bdc7fda0a3f19e780c1603cdf3e35370f49177"
+        }
+    ]
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+</testsuite>
