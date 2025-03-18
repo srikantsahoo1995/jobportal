@@ -16,14 +16,14 @@ public class NaukriAutoUpdate {
 	
 	static String resumeHeadline = "{\r\n"
 			+ "    \"profile\": {\r\n"
-			+ "        \"resumeHeadline\": \"Experienced SDET with nearly 5 years in designing, developing, and implementing automated test frameworks. Proficient in various automation tools, passionate about innovation, and skilled in AppSec, SaaS, and enterprise apps.\"\r\n"
+			+ "        \"resumeHeadline\": \"Experienced SDET with nearly 6 years of expertise in designing, developing, and implementing automated test frameworks and strategies. Proficient in a range of automation tools and technologies, with a strong passion for innovation and continuous improvement. Skilled in diverse domains including AppSec, SaaS, and enterprise applications. Adept in various testing methodologies, continuous integration, and Agile practices. Seeking challenging opportunities to enhance quality assurance in cutting-edge software projects.\"\r\n"
 			+ "    },\r\n"
 			+ "    \"profileId\": \"5c89cb746dad01d57d4bbfc541bdc7fda0a3f19e780c1603cdf3e35370f49177\"\r\n"
 			+ "}";
 	
 	static String updatedresumeHeadline = "{\r\n"
 			+ "    \"profile\": {\r\n"
-			+ "        \"resumeHeadline\": \"Experienced SDET with nearly 5 years in designing, developing, and implementing automated test frameworks. Proficient in various automation tools, passionate about innovation, and skilled in AppSec, SaaS, and enterprise apps..\"\r\n"
+			+ "        \"resumeHeadline\": \"Experienced SDET with nearly 6 years of expertise in designing, developing, and implementing automated test frameworks and strategies. Proficient in a range of automation tools and technologies, with a strong passion for innovation and continuous improvement. Skilled in diverse domains including AppSec, SaaS, and enterprise applications. Adept in various testing methodologies, continuous integration, and Agile practices. Seeking challenging opportunities to enhance quality assurance in cutting-edge software projects..\"\r\n"
 			+ "    },\r\n"
 			+ "    \"profileId\": \"5c89cb746dad01d57d4bbfc541bdc7fda0a3f19e780c1603cdf3e35370f49177\"\r\n"
 			+ "}";
