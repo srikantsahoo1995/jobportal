@@ -1,0 +1,38 @@
+pipeline {
+    agent any
+
+   
+    stages {
+        
+        
+         stage('build') {
+            steps {
+                
+                git branch: 'main', url: 'https://github.com/srikantsahoo1995/jobportal.git'
+                
+                sh "pwd"
+                sh "ls -la"
+               
+               sh "mvn clean install -DskipTests"
+               
+               
+            }
+        }
+        
+        stage('Execute test') {
+            steps {
+                
+               
+               sh "mvn clean test -Dsurefire.suiteXmlFiles=testng.xml"
+               
+               testNG()
+
+
+               
+            }
+        }
+
+           
+        }
+
+}
